@@ -9,7 +9,7 @@ Requires strapi `>= 4.4.6`
 In the root of the strapi project run:
 
 ```
-npm install @chcaa/strapi-invitation-email
+npm install @dameradev/strapi-admin-invite-email
 ```
 
 ## Configuration
