@@ -1,0 +1,22 @@
+{
+  "name": "@dameradev/strapi-admin-invite-email",
+  "version": "1.0.1",
+  "description": "Adds automatic emails sent when inviting new users.",
+
+  "main": "index.js",
+  "strapi": {
+    "name": "invitation-email",
+    "description": "Adds automatic emails sent when inviting new users.",
+    "kind": "plugin",
+    "displayName": "Invitation Email"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@strapi/provider-email-nodemailer": "^4.5.0"
+  },
+  "keywords": [],
+  "author": "Damjan Radev",
+  "license": "MIT"
+}
